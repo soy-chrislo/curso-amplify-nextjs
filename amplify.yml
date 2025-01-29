@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - npm install -g pnpm
-        - echo 'hola'
+        - echo 'hola 123'
         - pnpm install
     build:
       commands:
