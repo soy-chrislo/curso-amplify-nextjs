@@ -9,6 +9,7 @@ frontend:
     build:
       commands:
         - pnpm run build
+        - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
   artifacts:
     baseDirectory: .next
     files:
